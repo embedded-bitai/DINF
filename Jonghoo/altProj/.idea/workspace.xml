@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df75febd-3f56-41ec-975e-646dea6955a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/mutation-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/mutation-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/mutations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/adminSetup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/adminSetup.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/views/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/config/DBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/config/DBConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/security/JwtAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/JwtAuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jAPI0dQmV3jbboXGkjHc3s5sI4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplication" />
+      <module name="demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df75febd-3f56-41ec-975e-646dea6955a9" name="Default Changelist" comment="" />
+      <created>1603243839528</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603243839528</updated>
+      <workItem from="1603440375061" duration="502000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="207" key="GridCell.Tab.0.bottom" timestamp="1603385921210">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1638" height="347" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603328567667" />
+    <state width="1878" height="207" key="GridCell.Tab.0.bottom/1920.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1603385921210" />
+    <state width="1878" height="207" key="GridCell.Tab.0.center" timestamp="1603385921209">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1638" height="347" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603328567666" />
+    <state width="1878" height="207" key="GridCell.Tab.0.center/1920.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1603385921209" />
+    <state width="1878" height="207" key="GridCell.Tab.0.left" timestamp="1603385921208">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1638" height="347" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603328567665" />
+    <state width="1878" height="207" key="GridCell.Tab.0.left/1920.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1603385921208" />
+    <state width="1878" height="207" key="GridCell.Tab.0.right" timestamp="1603385921209">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1638" height="347" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603328567666" />
+    <state width="1878" height="207" key="GridCell.Tab.0.right/1920.0.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1603385921209" />
+    <state width="1638" height="347" key="GridCell.Tab.1.bottom" timestamp="1603328567668">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="347" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603328567668" />
+    <state width="1638" height="347" key="GridCell.Tab.1.center" timestamp="1603328567667">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="347" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603328567667" />
+    <state width="1638" height="347" key="GridCell.Tab.1.left" timestamp="1603328567667">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="347" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603328567667" />
+    <state width="1638" height="347" key="GridCell.Tab.1.right" timestamp="1603328567668">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="347" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603328567668" />
+    <state x="428" y="275" key="IDE.errors.dialog" timestamp="1603246370154">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="428" y="275" key="IDE.errors.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603246370154" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1603248952110">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1603248952110" />
+  </component>
+</project>
