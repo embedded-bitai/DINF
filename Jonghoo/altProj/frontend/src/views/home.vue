@@ -2,11 +2,10 @@
   <Layout>
     <template #content>
       <v-container class="header">
-        <div>
+        <v-parallax src="@/assets/testing.jpg">
           <p v-scrollanimation>매일 똑같은 노래를 듣는 당신에게</p>
           <p v-scrollanimation>한번의 클릭만으로 자기 자신을 찾아보세요</p>
-        </div>
-
+        </v-parallax>
         <div class="button">
           <v-btn next to="/upload"> music found </v-btn>
         </div>
@@ -75,7 +74,7 @@ export default {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 900;
     max-width: 100%;
-    height: 45%;
+    height: 37%;
     text-align: left;
     padding: 0px;
     margin-top: 10%;

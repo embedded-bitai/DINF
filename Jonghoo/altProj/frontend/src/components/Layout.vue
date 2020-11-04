@@ -6,9 +6,9 @@
       color="#FFFFFF"
       hide-on-scroll
       target="#tarege"
-      scroll-threshold="250"
+      scroll-threshold="150"
       >
-      <v-toolbar-title><div @click="Success"><h1>BIT MUSIC</h1></div></v-toolbar-title>
+      <v-toolbar-title><div @click="Home"><h1>BIT MUSIC</h1></div></v-toolbar-title>
       <v-spacer></v-spacer>
       <slot name="menubar">
         <v-btn next to="/" text color="black"
@@ -36,18 +36,10 @@ import { mapActions } from 'vuex'
 
 export default {
   data: () => ({
-    drawer: false,
-    left: false
   }),
   methods: {
-    Success () {
-      (window.location.pathname !== '/success') ? router.push('/success') : router.go(0)
-    },
-    Calender () {
-      (window.location.pathname !== '/calender') ? router.push('/calender') : router.go(0)
-    },
-    Archive () {
-      (window.location.pathname !== '/archive') ? router.push('/archive') : router.go(0)
+    Home () {
+      (window.location.pathname !== '/') ? router.push('/') : router.go(0)
     },
     onClickLogout () {
       this.logout()

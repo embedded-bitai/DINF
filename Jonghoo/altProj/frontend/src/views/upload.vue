@@ -2,14 +2,15 @@
   <Layout>
     <template #content>
     <v-container>
-      <label>File
+      <label for="file">File
         <input
-          placeholder="Please upload music files."
+          placeholder=''
           accept="audio/*"
           type="file"
           id="file"
           ref="file"
           @change="onFileSelected()"
+          class="inputfile"
         />
       </label>
       </v-container>
@@ -71,6 +72,27 @@ export default {
 </script>
 
 <style>
-input {
+.inputfile {
+width: 0.1px;
+height: 0.1px;
+opacity: 0;
+overflow: hidden;
+position: absolute;
+z-index: -1;
+}
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}
+.inputfile + label {
+  cursor: pointer; /* "hand" cursor */
 }
 </style>
