@@ -7,6 +7,8 @@ import vuetify from './plugins/vuetify'
 import vuex from 'vuex'
 import VuePageTransition from 'vue-page-transition'
 import ScrollAnimation from './directives/scrollAnimation'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 
 import ScrollBtnAnimation from './directives/scrollBtnAnimation'
 
@@ -18,6 +20,7 @@ Vue.directive('scrollanimation', ScrollBtnAnimation)
 
 Vue.config.productionTip = false
 
+Vue.use(VueAxios, axios)
 Vue.use(VueMoment, { moment })
 Vue.use(VuePageTransition)
 Vue.use(cookies)
