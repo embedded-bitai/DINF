@@ -21,6 +21,7 @@
               class="text-center"
               cols="12"
             >
+              <h1>
                 딥러닝 기반으로한 음악 추천 서비스
               </h1>
               <h4 class="subheading">

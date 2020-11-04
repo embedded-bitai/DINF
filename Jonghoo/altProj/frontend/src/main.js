@@ -10,7 +10,6 @@ import ScrollAnimation from './directives/scrollAnimation'
 
 import ScrollBtnAnimation from './directives/scrollBtnAnimation'
 
-
 import moment from 'moment'
 import VueMoment from 'vue-moment'
 
