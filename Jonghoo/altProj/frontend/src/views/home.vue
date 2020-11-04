@@ -1,7 +1,6 @@
 <template>
   <Layout>
     <template #content>
-<<<<<<< HEAD
       <v-container class="header">
         <div>
           <p v-scrollanimation>매일 똑같은 노래를 듣는 당신에게</p>
@@ -10,11 +9,6 @@
 
         <div class="button">
           <v-btn next to="/upload"> music found </v-btn>
-=======
-      <v-container fill-height>
-        <div fill-height>
-          <h1>hi</h1>
->>>>>>> f8a0168b3f3dd0bf6abaa5cadbe652ea0ce8a101
         </div>
       </v-container>
         <v-parallax src="@/assets/3.jpg" height="750">
@@ -27,29 +21,15 @@
               class="text-center"
               cols="12"
             >
-              <h1>
-<<<<<<< HEAD
                 딥러닝 기반으로한 음악 추천 서비스
               </h1>
               <h4 class="subheading">
                 5000가지 이상의 데이터로 당신의 취향을 분석해드립니다
-=======
-                Looking for some good music?
-              </h1>
-              <h4 class="subheading">
-                we can find perfect songs just for you!
->>>>>>> f8a0168b3f3dd0bf6abaa5cadbe652ea0ce8a101
               </h4>
             </v-col>
           </v-row>
         </v-parallax>
       <div id="info">
-<<<<<<< HEAD
-=======
-        <p v-scrollanimation>IZIHA</p><br>
-        <p>2020.09.26 SAT 9PM</p>
-        <h3>#EXPERIMENTAL #ELECTRONIC </h3>
->>>>>>> f8a0168b3f3dd0bf6abaa5cadbe652ea0ce8a101
       </div>
         <v-parallax src="@/assets/4.jpg" max-height="500px"></v-parallax>
     </template>
@@ -80,24 +60,15 @@ export default {
     padding: 20px;
     color: black;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> f8a0168b3f3dd0bf6abaa5cadbe652ea0ce8a101
   #info {
     height: 150px;
     padding: 20px;
     color: #90A4AE;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> f8a0168b3f3dd0bf6abaa5cadbe652ea0ce8a101
   #content {
     height: auto;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
-<<<<<<< HEAD
   .header {
     font-size: 75px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -118,23 +89,11 @@ export default {
     opacity: 0;
     transform: translateX(500px);
     transition: all 2.5s ease-out;
-=======
-
-  .before-enter {
-    opacity: 0;
-    transform: translateY(100px);
-    transition: all 2s ease-out;
->>>>>>> f8a0168b3f3dd0bf6abaa5cadbe652ea0ce8a101
   }
 
   .enter {
     opacity: 1;
-<<<<<<< HEAD
     transform: translateX(0px);
   }
 
-=======
-    transform: translateY(0px);
-  }
->>>>>>> f8a0168b3f3dd0bf6abaa5cadbe652ea0ce8a101
 </style>
