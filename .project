@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>Teamproj</name>
+=======
+	<name>demo</name>
+>>>>>>> f8a0168b3f3dd0bf6abaa5cadbe652ea0ce8a101
 	<comment>Project SpringHW created by Buildship.</comment>
 	<projects>
 	</projects>

@@ -1,9 +1,14 @@
 <template>
   <v-main>
+<<<<<<< HEAD
+=======
+    <v-card class="overflow-hidden">
+>>>>>>> f8a0168b3f3dd0bf6abaa5cadbe652ea0ce8a101
     <v-app-bar height="100px"
       app
       flat
       color="#FFFFFF"
+<<<<<<< HEAD
       hide-on-scroll
       target="#tarege"
       scroll-threshold="250"
@@ -22,11 +27,34 @@
       </slot>
     </v-app-bar>
     <v-container fluid>
+=======
+      inverted-scroll
+      scroll-threshhold=500px
+      >
+      <v-toolbar-title><div @click="Success"><h1>NEW NORMAL</h1></div></v-toolbar-title>
+      <v-spacer></v-spacer>
+      <slot name="menubar">
+        <v-btn @click="Success" text color="black"
+          style="padding: 10px; width: 90px;">Home</v-btn>
+        <v-btn href="http://localhost:3000" text color="black"
+          style="padding: 10px; width: 90px;">Stream</v-btn>
+        <v-btn @click="Archive" text color="black"
+          style="padding: 10px; width: 90px;">Archive</v-btn>
+        <v-btn @click="onClickLogout" text color="black"
+          style="padding: 10px; width: 90px;">Logout</v-btn>
+      </slot>
+    </v-app-bar>
+    <v-container fluid style="height: 3000px">
+>>>>>>> f8a0168b3f3dd0bf6abaa5cadbe652ea0ce8a101
       <v-content id="content" style="padding: 0px">
         <slot name="content">
         </slot>
       </v-content>
     </v-container>
+<<<<<<< HEAD
+=======
+    </v-card>
+>>>>>>> f8a0168b3f3dd0bf6abaa5cadbe652ea0ce8a101
   </v-main>
 </template>
 

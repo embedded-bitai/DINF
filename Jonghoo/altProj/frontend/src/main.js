@@ -7,13 +7,20 @@ import vuetify from './plugins/vuetify'
 import vuex from 'vuex'
 import VuePageTransition from 'vue-page-transition'
 import ScrollAnimation from './directives/scrollAnimation'
+<<<<<<< HEAD
 import ScrollBtnAnimation from './directives/scrollBtnAnimation'
+=======
+>>>>>>> f8a0168b3f3dd0bf6abaa5cadbe652ea0ce8a101
 
 import moment from 'moment'
 import VueMoment from 'vue-moment'
 
+<<<<<<< HEAD
 Vue.directive('scrollanimation', ScrollAnimation)
 Vue.directive('scrollanimation', ScrollBtnAnimation)
+=======
+Vue.directive('scrollAnimation', ScrollAnimation)
+>>>>>>> f8a0168b3f3dd0bf6abaa5cadbe652ea0ce8a101
 
 Vue.config.productionTip = false
 

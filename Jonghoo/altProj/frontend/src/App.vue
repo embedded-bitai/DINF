@@ -1,5 +1,6 @@
 <template>
   <v-app>
+<<<<<<< HEAD
     <transition name="view">
       <router-view/>
     </transition>
@@ -19,3 +20,8 @@
   opacity: 1;
 }
 </style>
+=======
+    <router-view/>
+  </v-app>
+</template>
+>>>>>>> f8a0168b3f3dd0bf6abaa5cadbe652ea0ce8a101
