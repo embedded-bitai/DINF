@@ -1,8 +1,8 @@
 export default {
-  LoginInfo (state) {
+  loginInfo (state) {
     return state.weight
   },
-  IsLogin (state) {
+  isLogedin (state) {
     return state.accessToken.length > 0 && !!state.myinfo
   }
 }
