@@ -4,10 +4,8 @@ import VueRouter from 'vue-router'
 import home from '../views/home.vue'
 import upload from '../views/upload.vue'
 import signUp from '../views/signUp.vue'
-import signIn from '../views/signIn.vue'
 import Logout from '../views/Logout.vue'
 import apply from '../views/apply.vue'
-import adminSetup from '../views/adminSetup.vue'
 import login from '../views/Login.vue'
 
 Vue.use(VueRouter)
@@ -34,11 +32,6 @@ const routes = [
     component: signUp
   },
   {
-    path: '/signIn',
-    name: 'signIn',
-    component: signIn
-  },
-  {
     path: '/Logout',
     name: 'Logout',
     component: Logout
@@ -47,11 +40,6 @@ const routes = [
     path: '/apply',
     name: 'apply',
     component: apply
-  },
-  {
-    path: '/adminSetup',
-    name: 'adminSetup',
-    component: adminSetup
   }
 ]
 

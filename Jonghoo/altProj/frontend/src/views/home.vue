@@ -7,7 +7,7 @@
           <p v-scrollanimation>한번의 클릭만으로 자기 자신을 찾아보세요</p>
         </v-parallax>
         <div class="button">
-          <v-btn next to="/upload"> music found </v-btn>
+          <v-btn next to="/upload">시작하기</v-btn>
         </div>
       </v-container>
         <v-parallax src="@/assets/3.jpg" height="750">
@@ -34,11 +34,12 @@
         <v-parallax src="@/assets/4.jpg" max-height="500px"></v-parallax>
     </template>
   </Layout>
-</template>c
+</template>
 
 <script>
 import Layout from '../components/Layout'
 import { mapState } from 'vuex'
+
 export default {
   components: { Layout },
   computed: {

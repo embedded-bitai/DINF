@@ -1,10 +1,10 @@
 <template>
   <v-responsive style="aspect-ratio: 16:9">
-  <v-main id="inspire">
+  <v-main>
     <v-container fluid style="padding: 5px">
       <v-img src="@/assets/1.jpg" max-height="700px">
       <div id="header">
-        <h1>NEW NORMAL</h1>
+        <h1>BIT MUSIC</h1>
       </div>
         <v-row align="center" justify="center">
           <v-col sm="5" id="login">
@@ -12,37 +12,6 @@
           </v-col>
         </v-row>
       </v-img>
-    </v-container>
-    <v-container fluid style="padding: 5px">
-      <v-row align="start" style="padding: 5px">
-        <v-col sm="3.5" style="padding: 5px">
-        <div id="text">
-          <h2>ABOUT</h2>
-        </div>
-        <div>
-          <h4>본문</h4>
-        </div>
-        </v-col>
-        <v-col sm="3.5" style="padding: 5px">
-        <div id="text">
-          <h2>HOW TO</h2><br>
-        </div>
-        <div>
-          <h4>본문</h4>
-        </div>
-        </v-col>
-        <v-col sm="3.5" style="padding: 5px">
-        <div id="text">
-          <h2>JOIN</h2>
-        </div>
-        <div>
-          <h4>본문</h4><br>
-        </div>
-        <div>
-          <v-btn outlined next to="/apply" color="gray"></v-btn>
-        </div>
-        </v-col>
-      </v-row>
     </v-container>
   </v-main>
   </v-responsive>
@@ -59,10 +28,8 @@ export default {
   },
   data () {
     return {
-      value: false, // ??
       userId: '', // 입력받은 아이디 값을 반환
-      userPw: '', // 입력받은 패스워드 값을 반환
-      valid: [] // 이게 무엇을 반환하는것이지?
+      userPw: '' // 입력받은 패스워드 값을 반환
     }
   },
   methods: {
@@ -70,11 +37,11 @@ export default {
     onSubmit (payload) {
       // console.log('loginPage onSubmit()')
       this.login(payload).then(res => {
-        alert('Login Success')
-        this.$router.push({ name: 'success' })
+        alert('성공적으로 로그인 하였습니다.')
+        this.$router.push({ name: 'home' })
       }).catch(err => {
         // alert(err.response.data.message)
-        alert('Something Fail: ', err)
+        alert('아이디와 비밀번호를 확인하여 주세요.', err)
       })
     },
     ...mapActions(['login'])
@@ -84,10 +51,10 @@ export default {
 
 <style scoped>
   div {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     font-family: Ubuntu;
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     margin: 10px;
     padding: 20px;
   }
