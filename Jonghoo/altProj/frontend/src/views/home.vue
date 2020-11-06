@@ -1,4 +1,4 @@
-<template v-if="isLogedIn">
+<template>
 <v-responsvie style="aspect-ratio: 16:9">
   <v-main>
     <Layout>
@@ -35,11 +35,18 @@
 
 <script>
 import Layout from '../components/Layout'
+
 import {
   mapState,
   mapGetters
 } from 'vuex'
+
 export default {
+  data () {
+    return {
+      test: ''
+    }
+  },
   components: {
     Layout
   },
@@ -48,7 +55,7 @@ export default {
       lists: state => state.lists
     }),
     ...mapGetters([
-      'isLogedIn'
+      'isLogedin'
     ])
   }
 }

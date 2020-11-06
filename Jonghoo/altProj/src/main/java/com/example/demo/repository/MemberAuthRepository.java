@@ -6,10 +6,13 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
+import lombok.extern.java.Log;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
+@Log
 @Repository
 public class MemberAuthRepository {
     @Autowired
@@ -31,7 +34,7 @@ public class MemberAuthRepository {
                 }
             }, userNo
         );
-
+            log.info("맴버 리파지토리");
         return results.isEmpty() ? null : results.get(0);
     }
 }

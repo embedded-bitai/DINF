@@ -9,9 +9,10 @@
     <v-spacer></v-spacer>
     <slot name="menubar">
       <v-btn next to="/" text color="black" style="padding: 10px; width: 90px;">Home</v-btn>
-      <v-btn href="http://localhost:3000" text color="black" style="padding: 10px; width: 90px;">Mylist</v-btn>
-      <v-btn @click="Archive" text color="black" style="padding: 10px; width: 90px;">Service</v-btn>
-      <v-btn next to="/login" text color="black" style="padding: 10px; width: 90px;">Login</v-btn>
+      <v-btn next to="mypage" text color="black" style="padding: 10px; width: 90px;">my</v-btn>
+      <v-btn next to="about" text color="black" style="padding: 10px; width: 90px;">about</v-btn>
+      <v-btn @click="onClickLogout" text color="black" style="padding: 10px; width: 90px;" v-if="isLogedin">Logout</v-btn>
+      <v-btn next to="/login" text color="black" style="padding: 10px; width: 90px;" v-else>Login</v-btn>
     </slot>
   </v-app-bar>
   <v-container fluid>
@@ -25,9 +26,7 @@
 
 <script>
 import router from '../router'
-import {
-  mapActions
-} from 'vuex'
+import { mapActions, mapGetters } from 'vuex'
 
 export default {
   data: () => ({}),
@@ -37,12 +36,18 @@ export default {
     },
     onClickLogout () {
       this.logout()
-      alert('Success Logout')
-      this.$router.push({
-        name: 'home'
-      })
+      alert('로그아웃 되었습니다.')
+      this.$router.push({ name: 'home' })
+        .catch(err => {
+          console.log(err)
+        })
     },
     ...mapActions(['logout'])
+  },
+  computed: {
+    ...mapGetters([
+      'isLogedin'
+    ])
   }
 }
 </script>

@@ -7,6 +7,9 @@ import signUp from '../views/signUp.vue'
 import Logout from '../views/Logout.vue'
 import apply from '../views/apply.vue'
 import login from '../views/Login.vue'
+import analysis from '../views/analysis.vue'
+import about from '../views/about.vue'
+import mypage from '../views/myPage.vue'
 
 Vue.use(VueRouter)
 
@@ -20,6 +23,21 @@ const routes = [
     path: '/upload',
     name: 'upload',
     component: upload
+  },
+  {
+    path: '/analysis',
+    name: 'analysis',
+    component: analysis
+  },
+  {
+    path: '/about',
+    name: about,
+    component: about
+  },
+  {
+    path: '/mypage',
+    name: mypage,
+    component: mypage
   },
   {
     path: '/login',

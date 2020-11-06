@@ -1,4 +1,6 @@
 <template>
+<v-responsive style="aspect-ratio: 16:9">
+  <v-main>
   <Layout>
     <template #content>
     <v-container>
@@ -13,6 +15,7 @@
           class="inputfile"
         />
       </label>
+      <progress max="100" :value.prop="uploadPercentage"/>
       </v-container>
 
       <div align="center">
@@ -25,6 +28,8 @@
       </div>
     </template>
   </Layout>
+  </v-main>
+</v-responsive>
 </template>
 
 <script>
@@ -41,7 +46,8 @@ export default {
   data () {
     return {
       selectedFile: null,
-      file: ''
+      file: '',
+      uploadPercentage: 0
     }
   },
   components: { Layout },
@@ -49,15 +55,20 @@ export default {
     onUpload () {
       const formData = new FormData()
       formData.append('file', this.file)
-
       this.axios.post('http://localhost8080/api.php',
         formData,
         {
           headers: {
             'Content-Type': 'multipart/form-data'
-          }
+          },
+          onUploadPercentage: function (progressEvent) {
+            this.uploadPercentage = parseInt(Math.round((progressEvent.loaded / progressEvent.total) * 100))
+          }.bind(this)
         }).then(function (data) {
         console.log(data.data)
+        this.$router.push({
+          name: 'analysis'
+        })
       })
         .catch(function () {
           console.log('업로드에 실패하였습니다.')
