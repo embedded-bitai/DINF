@@ -34,7 +34,6 @@ public class MemberAuthRepository {
                 }
             }, userNo
         );
-            log.info("맴버 리파지토리");
         return results.isEmpty() ? null : results.get(0);
     }
 }
