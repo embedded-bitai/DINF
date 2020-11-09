@@ -30,10 +30,10 @@
 
 <style scoped>
   div {
-    //border: 2px solid black;
+    /* border: 2px solid black; */
     font-family: Ubuntu;
     text-align: center;
-    //text-decoration: underline;
+    /* text-decoration: underline; */
     margin: 10px;
     padding: 20px;
   }
