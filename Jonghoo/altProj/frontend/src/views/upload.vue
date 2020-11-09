@@ -55,7 +55,7 @@ export default {
     onUpload () {
       const formData = new FormData()
       formData.append('file', this.file)
-      this.axios.post('http://localhost8080/api.php',
+      this.axios.post('http://127.0.0.1:5000/',
         formData,
         {
           headers: {
