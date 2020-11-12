@@ -1,13 +1,26 @@
 <template>
-<v-responsvie style="aspect-ratio: 16:9">
+<v-responsive style="aspect-ratio: 16:9">
   <v-main>
     <Layout>
       <template #content>
-        <v-container class="header">
-          <v-parallax src="@/assets/testing.jpg">
-            <p v-scrollanimation>매일 똑같은 노래를 듣는 당신에게</p>
-            <p v-scrollanimation>한번의 클릭만으로 자기 자신을 찾아보세요</p>
-          </v-parallax>
+        <v-container fluid class="header">
+          <v-row>
+          <v-col class="col">
+            <div class="text">
+              <p v-scrollanimation>BIT IMAGE는 기계 학습을 통해</p>
+              <p v-scrollanimation>당신의 이미지를 분석합니다.</p>
+              <br/>
+              <h6 v-scrollanimation>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam at lectus urna. Massa eget egestas purus viverra accumsan in nisl. Integer enim neque volutpat ac tincidunt. Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Est sit amet facilisis magna etiam tempor orci. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Et pharetra pharetra massa massa. Et magnis dis parturient montes nascetur ridiculus. Tempus iaculis urna id volutpat lacus laoreet non curabitur. Elementum facilisis leo vel fringilla est. Ut morbi tincidunt augue interdum velit. Ullamcorper dignissim cras tincidunt lobortis feugiat. Vel facilisis volutpat est velit egestas. Sodales ut etiam sit amet nisl purus in mollis. Libero enim sed faucibus turpis in eu mi bibendum. Aliquam vestibulum morbi blandit cursus risus at.
+              </h6>
+            </div>
+          </v-col>
+          <v-col class="col" md="5">
+            <v-parallax
+            src="@/assets/10.jpg"
+            height="1000"
+            />
+          </v-col>
+          </v-row>
           <div class="button">
             <v-btn next to="/upload">시작하기</v-btn>
           </div>
@@ -30,7 +43,7 @@
       </template>
     </Layout>
   </v-main>
-</v-responsvie>
+</v-responsive>
 </template>
 
 <script>
@@ -82,16 +95,17 @@ div {
   height: auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+h6 {
+  font-size: 20px;
+}
 
 .header {
-  font-size: 75px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 900;
   max-width: 100%;
   height: 37%;
   text-align: left;
   padding: 0px;
-  margin-top: 10%;
+  margin-top: 0%;
 }
 
 .button {
@@ -109,5 +123,9 @@ div {
 .enter {
   opacity: 1;
   transform: translateX(0px);
+}
+.text {
+  font-size: 80px;
+  font-weight: 900;
 }
 </style>
