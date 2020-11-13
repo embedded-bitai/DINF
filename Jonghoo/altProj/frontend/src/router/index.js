@@ -9,7 +9,7 @@ import apply from '../views/apply.vue'
 import login from '../views/Login.vue'
 import analysis from '../views/analysis.vue'
 import about from '../views/about.vue'
-import mypage from '../views/myPage.vue'
+import member from '../views/member.vue'
 
 Vue.use(VueRouter)
 
@@ -35,9 +35,9 @@ const routes = [
     component: about
   },
   {
-    path: '/mypage',
-    name: mypage,
-    component: mypage
+    path: '/member',
+    name: member,
+    component: member
   },
   {
     path: '/login',
